@@ -10,7 +10,7 @@ def frequencies(items):
             frequencies[val] = num + 1
         
         else:
-            frequencies[val] = 0
+            frequencies[val] = 1
 
     # Your code goes here
     return frequencies
