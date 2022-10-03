@@ -5,7 +5,7 @@ def frequencies(items):
     frequencies = {}
     for x in items:
         val = str(x)
-        if(frequencies[val]):
+        if(frequencies.keys().contains(val)):
         
             frequencies[val] = frequencies[val] + 1
         
