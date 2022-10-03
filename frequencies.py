@@ -4,7 +4,7 @@
 def frequencies(items):
     frequencies = {}
     for x in items:
-        if(x in frequencies.keys()):
+        if(frequencies[x]):
         
             frequencies[x] = frequencies[x] + 1
         
@@ -13,3 +13,4 @@ def frequencies(items):
 
     # Your code goes here
     return frequencies
+
